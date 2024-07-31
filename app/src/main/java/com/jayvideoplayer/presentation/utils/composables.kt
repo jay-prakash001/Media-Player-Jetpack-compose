@@ -190,7 +190,8 @@ fun CategoryCard(
 fun Categories(context: Context, categories: List<Category>, navController: NavHostController) {
 
     LazyVerticalGrid(
-        columns = GridCells.Adaptive(minSize = 130.dp)
+//        columns = GridCells.Adaptive(minSize = 130.dp)
+        columns = GridCells.Adaptive(minSize = 170.dp)
     ) {
         items(categories) { cat ->
             CategoryCard(category = cat) {
